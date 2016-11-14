@@ -1,0 +1,23 @@
+.jumbotron{
+	display:flex;
+	align-items: center;
+	background-color: #ffdab9;
+	background-size: cover;
+	color: #794044;
+	height: 500px;
+	text-shadow: 0.25px 0.25px 0.25px #c9aa98;
+}
+
+.jumbotron h1{
+	font-size:70px;
+	font-weight:bold;
+	margin:0;
+}
+
+.jumbotron h3{
+	font-size:40px;
+	font-weight:thin;
+	margin:0 0 20px;
+	color: #93323f;
+}
+
