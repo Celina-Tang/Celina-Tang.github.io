@@ -14,13 +14,15 @@
 	    <div class = "container">
 		 <div class = "jumbotron">
 				<h1> Celina Tang </h1>
-				<p>
-				    <a class = "btn btn-img" role = "button"> <img class = "img-button" src = "image/Bubble_resume.png"/> </a>
-			            
-				    <a class = "btn btn-img" role = "button"> <img class = "img-button" src = "image/Bubble_github.png"/> </a>
-				
-				    <a class = "btn btn-img" role = "button"> <img class = "img-button" src = "image/Bubble_linkedin.png"/> </a>
-				</p>
+				<ul>
+				    <li> <a class = "btn btn-img" role = "button"> <img class = "img-button" src = "image/Bubble_resume.png"/> </a>
+			            </li>
+				<li> <a class = "btn btn-img" role = "button"> <img class = "img-button" src = "image/Bubble_github.png"/> </a>
+				</li>
+				<li>
+				<a class = "btn btn-img" role = "button"> <img class = "img-button" src = "image/Bubble_linkedin.png"/> </a>
+				</li>
+				</ul>
 		    </div>	
 		
             </div>
