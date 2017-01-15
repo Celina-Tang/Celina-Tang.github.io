@@ -1,82 +1,87 @@
 <!DOCTYPE html>
-<html lang = 'en'>
+<html>
     <head>
 	<meta name = 'viewport' content = 'width = device-width, initial-scale = 1'>
         <meta name = 'description' content = "Celina Tang Personal Website">
 	<meta name = 'author' content = "Celina Tang">	
 	<meta name = 'keywords' content = "Celina Tang, Tang, Celina, Hao, software engineering, engineering, software, waterloo, programmer">
-	<link href = "css/main_v2.css" rel = "stylesheet" type = "text/css">
+	<link href = "main.css" rel = "stylesheet" type = "text/css">
 	<title> Celina Tang | Hello World </title>
     </head>
 
-    <body>
+    <body> 
+    	<div class = "intro">
+		<table>
+			<tr> <td id = "headshot"> <img src = "image/headshot.png" class = "icon"/> </td> </tr>
+		</table>
+	    <h1> Celina Tang </h1>
+	    <p> Hi, I'm Celina, a software engineering student at University of Waterloo. </p>
+	    <table>
+		    <tr>
+			    <td><a href "https://github.com/Celina-Tang"><img class = "icon" src = "image/Bubble_github.png"/></a></td>
+			    <td><a href "files/Resume 01.10.17.docx"><img class = "icon" src = "image/Bubble_resume.png"/></a></td>
+			    <td><a href "https://ca.linkedin.com/in/celina-t-479177103"><img class = "icon" src = "image/Bubble_linkedin.png"/></a></td>
+		    </tr>
+	    </table>
+	</div>
 
-	    <div class = "container">
-		 <div class = "jumbotron">
-				<h1> Celina Tang </h1>
-				<p>
-				    <a class = "btn btn-img" role = "button"> <img class = "img-button" src = "image/Bubble_resume.png"/> </a>
-			            
-				    <a class = "btn btn-img" role = "button"> <img class = "img-button" src = "image/Bubble_github.png"/> </a>
-				
-				    <a class = "btn btn-img" role = "button"> <img class = "img-button" src = "image/Bubble_linkedin.png"/> </a>
-				</p>
-		    </div>	
-		
-            </div>
+	<div class = "info">
+	    <section class = "experience">
+		    <h2> Work Experience </h2>
+		    <div class = "panel">
+			    <img src = "image/quanser.png"/>
+			    <h3> Software Developer Co-op at Quanser Consultant Inc. </h3>
+			    <p> In the summer of 2015, I had a co-op opportunity as a software developer at Quanser Consultant Inc and created 3 demo projects for their new product, Qbot2. My projects centered on demonstrating the functionalities of Qbot 2 and possible experiments that could perform with its control system.</p>
+			<ol>
+			    <li> <strong><em>"Leader and Follower:"</em></strong> Used dead reckoning with XY coordinates from encoders and gyro calculations to track and pursue the leader Qbot; their coordinate locations were updated through the network communication to increase the accuracy of the calculation</li>
+			    
+			    <li><strong><em>Image Processing Program:</em></strong> Performed a threshold on the RGB values acquired from Qbot2 to target and recognize specific object of certain shape and colour</li>
 
-	    <div class = "container">
-	    <div class = "row">
-	        <div class = "col-lg-4">
-		    <div class = "thumbnail">
-	                <img src = "" alt = "">
+			    <li><strong><em>Lidar Infrared Area Mapping:</em></strong> Analyzed depth data acquired from Lidar and created a mapping of the surrounding area; incorporated in path planning algorithm</li>
+			</ol>
 		    </div>
-
-	            <div class "caption"> 
-		        <h4>FRC Robotics </h4>
-                        <p> Participated in FIRST Robotics from 2012-2016 </p>
-                        <p>
-		             <a href ="#" class = "btn" role = "button">
-		             More...
- 		             </a>
-		        </p>
-                    </div>
-	        </div>	
- 
-	        <div class = "col-lg-4">
-		    <div class = "thumbnail">
-	                <img src = "" alt = "">
+	    </section>
+	    <section class = "projects">
+		    <h2> Projects and Extracurriculars </h2>
+		    <div class = "panel">
+			    <img src = "image/launchpad.jpg"/>
+			    <h3>BoosterCat</h3>
+			    <p> BoosterCat, a pet simulation game, aims to provide the most realistic experience with Tiva C Lauchpad and the addition Tiva Boosterpack. </p>
 		    </div>
-
-	            <div class "caption"> 
-		        <h4>Quanser Consultant INC. </h4>
-                        <p> Co-oped at Quanser Consultant INC in 2015 </p>
-                        <p>
-		             <a href ="#" class = "btn" role = "button">
-		             More...
- 		             </a>
-		        </p>
-                     </div>
-	        </div>
-
-	        <div class = "col-lg-3">
-		    <div class = "thumbnail">
-	                <img src = "" alt = "">
+	    	    <div class = "panel">
+			    <img src = "image/IMG_0161.jpg" />
+			    <h3>FIRST Robotics Team 4001</h3>
+			    <p> Team 4001 is a FIRST Robotics team from St. Robert CHS. I, as the team captain, is proud to lead a team of 85 members, dedicating many hours everyday after school to my work in robotics. Walking down the path of discovering my passion, I grew from an oblivious beginner who did not know which future most appealed to me to an experienced programmer, leading the team to achieve great success in automation. I realized that I had a strong interest in programming, which gave me the motivation to persist and excel in self-learning LabView and Java. Before becoming the captain, I was the second lead programmer who presented the technical report about our robot to the judges, which has earned my team the Industrial Design Award. Furthermore, I advocated the importance of innovative and technological development to the Superintendent from York Catholic District School Board at the Fall Fiesta Off-Season event and I promoted the team and the value of STEM live on Rogers Daytime. With all my effort in supporting the team from technical contribution on the programming side to active promotion of the team within the local community, I was revered and nominated as a Dean’s List Finalist at the regional competition. Thus, I was elected to be the team captain with support from my teammates at the end of last competition season. After becoming the captain, I obtained more experience and consolidated my skill in programming through multiple projects during my summer co-op term at Quanser Consultant Inc. During offseason, I taught lessons on programming with Labview from two months in preparation for the competition build season, monitored and hosted weekly webinars representing FRC Canada to help rookie teams, took the responsibility of the Head Referee at FIRST Lego League regional, and continued to communicate and manage the team. </p>
+			    <a href = "files/Team 4001 Newsletter.pdf"> Team 4001 Newsletter 2016 </a>
 		    </div>
+		    <div class = "panel">
+			    <img src = "image/library_program.jpg" />
+			    <h3>FIRST Lego League Library Program</h3>
+			    <p> As the captain of FIRST Robotics Team 4001, I took the initiative of becoming one of the four volunteers to participate in the FIRST Lego League Library Program in order to raise the awareness of innovation and technology in the local community. This program is provided to elementary school students who are interested in learning about control systems, robotics sensors, automation, and mechanics.  There were 20 students who completed this six-week program; all of which gave high regards and very positive feedback. Since it was the first time that this program took place at Richmond Hill Public Library, my teachers, teammates, and I prepared many of the lesson plans and materials, of which I taught the programming lessons on Lego Mindstorm EV3 because I specialized in coding on the FRC team. After completing the program in June, we were able to bring the parents’ interest in creating a community FLL team. In September 2015, the library invited Team 4001 to arrange more sessions on this topic because of its success and popularity. I organized the FIRST Lego League Regional at St. Robert CHS with the guidance of my teachers, Ms. Koon and Mr. Keenan, and help from my team, Team 4001. I took the responsibility of being the Head Referee at the regional competition believing that supporting young children’s interest in the field of science, technology, engineering and mathematics would be crucial for the future. Since all the referees needed to fully understand the rules and to make critical judgements during the competition, I provided training sessions to help my team of referees familiarize themselves with the rules and competition field setup. As the Head Referee, I maintained orders in the field, made fair calls if the referees had doubts about the situation (it is the Head Referee’s judgement if none of the rules or updates indicate anything regarding the occurring situation) and explained any unclear judgements to the competitors.</p>
+		    </div>
+		    <div class = "panel">
+			    <img src = "image/newspaper.png"/>
+			    <h3>The Axiom School Newspaper</h3>
+			    <p> As the editor-in-chief, I supervised a team of 35 members to write articles on school-wide events, global issues, and club activities, successfully reaching a monthly view of 200. Furthermore, I edited articles and other materials submitted for publication to improve readability and confer with reporters regarding changes in content, style or organization. </p>
+			    <a href = "http://theaxiom.ca/"> THe Axiom School Newspaper </a>
+		    </div>
+	    </section>
+	</div>
 
-	            <div class "caption"> 
-		        <h4>The Axiom School Newspaper </h4>
-                        <p> Edited and maintained the school newspaper from 2014-2016 </p>
-                        <p>
-		            <a href ="#" class = "btn" role = "button">
-		            More...
- 		            </a>
-		        </p>
-                    </div>
-	        </div>
-	    </div>
-	    </div>
-        </div>
+	<div class = "art">
+		<h2> Art Work </h2>
+		<section class = "grid-wrap">
+			<ul class = "gallery">
+				<li class = "grid-sizer"> </li>
+				<li><img src = "image/IMG_1525.jpg"/></li>
+				<li><img src = "image/IMG_1527.jpg"/></li>
+				<li><img src = "image/IMG_1528.jpg"/></li>
+				<li><img src = "image/IMG_1529.jpg"/></li>
+				<li><img src = "image/IMG_1530.jpg"/></li>
+			</ul>
+		</section>
+	</div>
+
     </body>
-</html>
-
+	
+<html>

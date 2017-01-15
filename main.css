@@ -1,0 +1,207 @@
+html{
+	font-family: georgia, sans-serif;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+}
+
+body{
+	font-size:14px;
+	line-height: 1.5;
+	color:#5c5665;
+	margin:0;
+	display: flex;
+	background-color: #eabfbf;
+}
+
+h1{
+	text-align: center;
+	font-weight:500;
+	font-height: 1.1;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h2{
+	font-weight:400;
+	font-height: 1;
+}
+
+p{
+	margin: 0 0 10px;
+	text-align: center;
+}
+
+table { 
+	border: 10px;
+	border-collapse: collapse;
+}
+
+td {
+	width:50em;
+	text-align:center;
+	padding-bottom: 3em;
+}
+
+#headshot{
+	padding-top: 3em;
+	padding-bottom: 0;
+}
+
+.icon{
+	vertical-align: middle;
+	max-height: 20%;
+	max-width: 20%;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 0;
+	margin-bottom: 0;
+	cursor: pointer;
+	background-color:#c9bbbb;
+	border: 1px solid #bfc5ce;
+	border-radius: 50%;
+}
+
+.icon:hover
+.icon:active{
+	background-color: #f9baba;
+}
+
+div{
+	display: table;
+	max-width: 90%;
+	height:100%;
+	position: relative;
+}
+
+.intro {
+	background-color:#d85f5f;
+	height:auto;
+}
+
+.info section{
+	font-size: inherit;
+	padding: 3em 1em;
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+.info section:before
+.info section:after{
+	content: '';
+	display: table;
+}
+
+.info section:after{
+	clear:both;
+}
+
+.panel{
+	float: left;
+	width: 33%;
+	padding: 0 25px;
+}
+
+.panel img {
+	max-width: 100%;
+	display:block;
+	margin: 0 auto;
+	border-radius: 10%;
+}
+
+.panel h3{
+	margin: 0.75em 0 0.5em;
+}
+
+.panel p{
+	padding: 0 0 1em 0;
+	margin: 0;
+}
+
+.art ul{
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+
+.art img{
+	margin:0 ;
+	display: block;
+	width: 100%;
+}
+
+.grid-wrap{
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 0 1em 1.8755em;
+}
+
+.gallery {
+	margin: 0 auto;
+}
+
+.gallery li {
+	width: 25%;
+	float: left;
+	cursor: pointer;
+}
+
+
+@media screen and (max-width:52.375em){
+	.panel {
+		float: none; 
+		width: auto;
+		padding: 0 0 35px 0 ;
+		font-size: 90%;
+	}
+
+	.panel img{
+		float: left; 
+		margin: 0 25px 10px 0;
+		max-width: 40%;
+	}
+	
+	.panel h3 {
+		margin-top:0;
+	}
+
+	.panel p {
+		margin-left: 40%;
+		margin-left: calc(40% + 25px);
+	}
+
+	.gallery li {
+		width:33.3%;
+	}
+	
+}
+
+@media screen and (max-width: 32em) {
+	.icon {
+		width: 20%;
+		width: calc(20% + 1px);
+		padding: 0;
+		margin: 0 0 0 -1px;
+	}
+
+	.panel{
+		text-align: center;
+	}
+	
+	.panel img{
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	.panel h3 { 
+		margin: 1.25em 0 1em;
+	}
+
+	.panel p{
+		margin: 0;
+	}
+
+	.gallery li {
+		width:50%:
+	}
+}
