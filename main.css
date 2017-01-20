@@ -31,6 +31,13 @@ p{
 	text-align: center;
 }
 
+div{
+	display: inline-block;
+	max-width: 100%;
+	position: relative;
+}
+
+
 table { 
 	border: 10px;
 	border-collapse: collapse;
@@ -45,12 +52,14 @@ td {
 #headshot{
 	padding-top: 3em;
 	padding-bottom: 0;
+	text-align:center;
+	margin-right: 0;
 }
 
 .icon{
 	vertical-align: middle;
-	max-height: 20%;
-	max-width: 20%;
+	max-height: 30%;
+	max-width: 30%;
 	border-radius: 50%;
 	display: inline-block;
 	padding: 0;
@@ -74,23 +83,19 @@ a:hover{
 	color:#c6804c;
 }
 
-div{
-	display: table;
-	max-width: 90%;
-	
-	position: relative;
-}
-
 .intro {
 	background-color:#FF9546;
 	height:auto;
+	text-align: center;
+	padding: 10px 20px;
 }
 
 .info section{
 	font-size: inherit;
 	padding: 1em 1em;
 	max-width: 1230px;
-	margin: 0 auto;
+	margin:0 auto;
+	text-align: center;
 }
 
 .info section:before
@@ -106,7 +111,7 @@ div{
 
 .panel{
 	float: left;
-	width: 33%;
+	width: 30%;
 	padding: 0 25px;
 }
 
@@ -157,7 +162,7 @@ div{
 }
 
 
-@media screen and (max-width:52.375em){
+@media screen and (min-width:1024px){
 	.panel {
 		float: none; 
 		width: auto;
@@ -186,7 +191,7 @@ div{
 	
 }
 
-@media screen and (max-width: 32em) {
+@media screen and (min-width: 768px) {
 	.icon {
 		width: 20%;
 		width: calc(20% + 1px);
@@ -214,5 +219,35 @@ div{
 
 	.gallery li {
 		width:50%:
+	}
+}
+
+@media screen and (min-width: 720px){
+	.icon{
+		width: 10%;
+		width: calc(10%+2px);
+		padding: 0;
+		margin: 0 0 0 -1px;
+	}
+	.panel{
+		text-align: center;
+	}
+	
+	.panel img{
+		float: none;
+		margin: 0 auto;
+		max-width: 80%;
+	}
+
+	.panel h3 { 
+		margin: 1.25em 0 1em;
+	}
+
+	.panel p{
+		margin: 0;
+	}
+
+	.gallery li {
+		width:45%:
 	}
 }
