@@ -133,6 +133,10 @@ a:hover{
 	text-align: left;
 }
 
+.text li{
+	text-align:left;
+}
+
 #art ul{
 	list-style:none;
 	margin: 0;
@@ -140,7 +144,7 @@ a:hover{
 }
 
 #art img{
-	margin:1em 0.5em;
+	margin:1em 0;
 	display: block;
 	width: 100%;
 }
@@ -194,6 +198,10 @@ a:hover{
 	h1{
 		font-size:40px;
 	}	
+
+	.text {
+		font-size: 14px;
+	}
 
 	.experience .text{
 		margin: 0 3%;
@@ -251,9 +259,22 @@ a:hover{
 
 @media screen and (max-width:1200px){
 	.image{	
-	min-width: 200px;
-	max-width: 300px;
-	margin: 5%;
+		min-width: 200px;
+		max-width: 300px;
+		margin: 5%;
+	}
+
+	.text {
+		font-size: 14px;
+	}
+
+	h2{
+		font-size: 35px;
+		text-align: left;
+	}
+
+	h1{
+		font-size:40px;
 	}
 
 	.icon {
@@ -268,7 +289,7 @@ a:hover{
 		text-align : center;
 		float: none; 
 		width: auto;
-		padding: 0 0 35px 0 ;
+		padding: 0 0 10px 0 ;
 		font-size: 90%;
 	}
 
