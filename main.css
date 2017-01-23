@@ -19,11 +19,13 @@ h1{
 	font-height: 1.1;
 	margin-top: 20px;
 	margin-bottom: 10px;
+
 }
 
 h2{
 	font-weight:400;
 	font-height: 1;
+
 }
 
 p{
@@ -49,7 +51,7 @@ div{
 	margin-top: 6%;
 	text-align:center;
 	margin-right: 0;
-	width: 25%;
+	width: 30%;
 }
 
 .icon{
@@ -115,12 +117,6 @@ a:hover{
 	margin-left: 7%;
 }
 
-.image{	
-	min-width: 200px;
-	max-width: 300px;
-	margin: 5%;
-}
-
 .panel img {
 	max-width: 100%;
 	margin: 0 auto;
@@ -164,6 +160,92 @@ a:hover{
 	width: 25%;
 	float: left;
 	cursor: pointer;
+}
+
+@media screen and (min-width:1400px){
+	.image{	
+		display: flex;
+		align-items: center;
+		max-width:25%;
+		min-width:25%;
+	}
+
+	.icon {
+		width: 40%;
+		width: calc(40% + 1px);
+		padding: 0;
+		margin: 0 0 0 -1px;
+	}
+
+	.panel {
+		display: flex;
+		text-align : center;
+		float: none; 
+		width: auto;
+		padding: 0 0 35px 0 ;
+		font-size: 90%;
+	}
+
+	h2{
+		font-size: 35px;
+		text-align: left;
+	}
+
+	h1{
+		font-size:40px;
+	}	
+
+	.experience .text{
+		margin: 0 3%;
+	}
+
+	.panel img{
+		float: left; 
+		margin: 0;
+		display:flex;
+	}
+	
+	.panel h3 {
+		margin-top:0;
+		text-align:left;
+	}
+
+	.panel p {
+		margin-right: 0;
+	}
+	
+	.projects{
+		display: flex;
+	}
+
+	.projects .image{
+		max-width:35%;
+		min-width: 35%;
+	}
+
+	.projects .text{
+		margin-left: 2%;
+		max-width:81%;
+		
+	}
+
+	.projects .panel {	
+		max-width: 50%;
+		min-width: 50%;
+	}
+
+	.info section {
+		max-width: none;
+	}
+	
+	.grid-wrap {
+		max-width: none;
+	}
+
+	.gallery li {
+		width:33.3%;
+	}
+	
 }
 
 
@@ -254,6 +336,7 @@ a:hover{
 		padding: 0;
 		margin: 0 0 0 -1px;
 	}
+
 	.panel{
 		display:block;
 		text-align: center;
