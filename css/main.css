@@ -79,7 +79,7 @@ h1{
 	background-color:#FAC8BF;
 	height:auto;
 	text-align: center;
-	padding: 10px 20px;
+	padding: 10px 0px;
   width:100%;
 }
 
@@ -257,6 +257,8 @@ div .hidden-info{
 	padding: 0 1em;
 	overflow-x: hidden;
 	overflow-y: auto;
+  top: 9em;
+  bottom: 3.313em;
 }
 
 .slider .cbp-content {
@@ -336,6 +338,9 @@ div .hidden-info{
 		-o-column-count: 1;
 		column-count: 1;
 	}
+  .slider{
+    height: 137%;
+  }
 	.slider li div {
 		top: 5em;
 	}
@@ -347,6 +352,7 @@ div .hidden-info{
   #infoButtons a {
     display: inline-block;
     left: 0;
+    max-width: 20%;
   }
   .bathToken{
     width:32%;
