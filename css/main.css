@@ -56,6 +56,7 @@ h1{
   margin-bottom: 2px;
   height: 5em;
   width:10em;
+  left: 1.75em;
   text-align: center;
   color: #BFE2CA;
   vertical-align: middle;
@@ -65,10 +66,6 @@ h1{
   -webkit-transition: background 0.1s ease-in-out;
   -moz-transition: background 0.1s ease-in-out;
   transition: background 0.1s ease-in-out;
-}
-
-#infoButtons a:hover{
-	background: #A4D2DF;
 }
 
 #infoButtons a img {
@@ -118,7 +115,7 @@ div .hidden-info{
 
 .slider{
   width: 100%;
-  height: 100%;
+  height: 97%;
   margin: 1em auto;
   position: relative;
   border: 4px solid #698d9d
@@ -162,7 +159,6 @@ div .hidden-info{
 .slider nav a {
 	float: left;
 	display: block;
-
 	height: 100%;
 	font-weight: 400;
 	letter-spacing: 0.1em;
@@ -256,8 +252,6 @@ div .hidden-info{
 
 .slider li div {
 	position: absolute;
-	top: 9em;
-	bottom: 3.313em;
 	width: 92%;
 	left: 0;
 	padding: 0 1em;
@@ -292,9 +286,8 @@ div .hidden-info{
 }
 
 .slider #slide5 img{
-	margin:1em 3.5em;
 	display: block;
-	width: 85%;
+	width: 76%;
   height: auto;
 }
 
@@ -304,6 +297,18 @@ div .hidden-info{
 	.slider p {
 		font-size: 100%;
 	}
+  .slider h2 {
+    font-size: 3em;
+  }
+  .slider #slide5 img{
+    width: 101%;
+  }
+  #infoButtons a img{
+    margin: 0.45em 0;
+  }
+  #basicInfo img{
+    margin-left: 5em;
+  }
 }
 
 @media screen and (max-width: 67.75em) {
@@ -322,22 +327,37 @@ div .hidden-info{
 }
 
 @media screen and (max-width: 43em) {
-
 	.slider h2 {
 		font-size: 2em;
 	}
-
 	.slider .cbp-content {
 		-webkit-column-count: 1;
 		-moz-column-count: 1;
 		-o-column-count: 1;
 		column-count: 1;
 	}
-
 	.slider li div {
 		top: 5em;
 	}
-
+  #basicInfo img{
+    width:90%;
+    margin: 0;
+    margin-top: 2.5em;
+  }
+  #infoButtons a {
+    display: inline-block;
+    left: 0;
+  }
+  .bathToken{
+    width:32%;
+  }
+  .slider h2 {
+    font-size: 1.5em;
+  }
+  .slider li div{
+    padding: 0 0.5em;
+    top: 4em;
+  }
 }
 
 @media screen and (max-width: 25em) {
