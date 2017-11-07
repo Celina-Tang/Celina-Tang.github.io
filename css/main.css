@@ -8,12 +8,12 @@ body{
   font-size: 18px;
   line-height: 1.5;
   margin: 0;
-  background-color: #ffffe0;
+  background-color: antiqueWhite;
   font-family: 'Agency FB', arial;
 }
 
 div{
-  display:inline-block;
+  display:flex;
   max-width: 100%;
   position: relative;
 }
@@ -27,6 +27,7 @@ h1{
 
 .about{
   width:100%;
+  margin-left: 30%;
 }
 
 #basicInfo {
@@ -35,7 +36,8 @@ h1{
 }
 
 #basicInfo img {
-  margin: 1.5em;
+  display: flex;
+  margin-top: 60pt;
 }
 
 #infoButtons {
@@ -310,6 +312,10 @@ div .hidden-info{
   }
   #basicInfo img{
     margin-left: 5em;
+    margin-top: 80pt;
+  }
+  .about {
+    margin-left: 5%;
   }
 }
 
@@ -347,7 +353,7 @@ div .hidden-info{
   #basicInfo img{
     width:90%;
     margin: 0;
-    margin-top: 2.5em;
+    margin-top: 60pt;
   }
   #infoButtons a {
     display: inline-block;
