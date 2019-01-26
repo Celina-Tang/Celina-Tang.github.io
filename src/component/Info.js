@@ -6,7 +6,7 @@ export default class Info extends React.Component {
         return (
             <div className="jumbotron">
             <h1 className="display-4">Celina Tang</h1>
-            <p className="lead"> 2B Software Engineering at University of Waterloo</p>
+            <p className="lead"> 3A Software Engineering at University of Waterloo</p>
             <hr className="my-4"/>
             <p className="lead">
                 <a className="btn btn-primary btn-lg" href={resume} role="button">Resume</a>
