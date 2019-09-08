@@ -1,0 +1,50 @@
+html{
+height:100%;}
+
+body {
+background:#0D343A;
+background:-webkit-gradient(linear,0% 0%,0% 100%, from(#1e1736), to(#a33b5a)  );
+background: -moz-linear-gradient(top, #1e1736 0%, #a33b5a 100%);
+
+overflow:hidden;}
+
+h1 {
+text-align: center;
+}
+
+.drop {
+  background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(90, 43, 74, 1)), to(rgba(255, 191, 191,0.6))  );
+  background: -moz-linear-gradient(top, rgba(90, 43, 74, 1) 0%, rgba(255,191,191,.6) 100%);
+    width:1px;
+    height:89px;
+    position: absolute;
+    bottom:200px;
+    -webkit-animation: fall .99s linear infinite;
+  -moz-animation: fall .99s linear infinite;
+  
+}
+
+.skyline {
+	position:absolute;
+	width: 200vw;
+	bottom: 0px;
+	left: -100vw;
+	-webkit-animation: roll 30s linear infinite;
+	-moz-animation: roll 30s linear infinite;
+}
+
+/* animate the drops*/
+@-webkit-keyframes fall {
+    to {margin-top:100vh;}
+}
+@-moz-keyframes fall {
+    to {margin-top:100vh;}
+}
+
+/* animate skyline scroll */
+@-webkit-keyframes roll {
+    to {margin-left:100vw;}
+}
+@-moz-keyframes roll {
+    to {margin-left:100vw;}
+}
