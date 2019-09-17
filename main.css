@@ -35,7 +35,7 @@ img {
 	z-index: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
 	h1 {
 		font-size: 5.5vh;
 		margin-top: 35vh;
