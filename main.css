@@ -1,5 +1,6 @@
 body {
 	background-color: #fce8e7;
+	overflow: hidden;
 }
 
 h1 {
@@ -25,10 +26,54 @@ img {
 }
 
 #info {
-	z-index: 1;
+	z-index: 3;
 	text-align: center;
 	width: 100%;
 	position: relative;
+}
+
+#cloudLayer1 {
+	z-index: 1;
+}
+
+#cloudLayer2 {
+	z-index: 2;
+}
+
+.cloud {
+	position:absolute;
+	-webkit-animation: float 20s linear infinite;
+	-moz-animation: float 20s linear infinite;
+}
+
+@-webkit-keyframes float {
+	0% {
+		margin-left: 0px;
+		opacity 0;
+	}
+	45% {
+		margin-left: 900px;
+		opacity: 1;
+	}
+	100% {
+		margin-left: 1800px;
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes float {
+	0% {
+		margin-left: 0px;
+		opacity 0;
+	}
+	45% {
+		margin-left: 900px;
+		opacity: 1;
+	}
+	100% {
+		margin-left: 1800px;
+		opacity: 0;
+	}
 }
 
 #backgroundSVG {
