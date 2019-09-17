@@ -1,50 +1,52 @@
-html{
-height:100%;}
-
 body {
-background:#0D343A;
-background:-webkit-gradient(linear,0% 0%,0% 100%, from(#1e1736), to(#a33b5a)  );
-background: -moz-linear-gradient(top, #1e1736 0%, #a33b5a 100%);
-
-overflow:hidden;}
+	background-color: #fce8e7;
+}
 
 h1 {
-text-align: center;
+	font-family: 'Miniver';
+	font-size: 5vw;
+	text-align: center;
+	color: #d35f5f;
+	margin-bottom: 0;
 }
 
-.drop {
-  background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(90, 43, 74, 1)), to(rgba(255, 191, 191,0.6))  );
-  background: -moz-linear-gradient(top, rgba(90, 43, 74, 1) 0%, rgba(255,191,191,.6) 100%);
-    width:1px;
-    height:89px;
-    position: absolute;
-    bottom:200px;
-    -webkit-animation: fall .99s linear infinite;
-  -moz-animation: fall .99s linear infinite;
-  
+img {
+	width: 80vw;
+	position: absolute;
+	left:10vw;
+	bottom:5vh;
 }
 
-.skyline {
-	position:absolute;
-	width: 200vw;
-	bottom: 0px;
-	left: -100vw;
-	-webkit-animation: roll 30s linear infinite;
-	-moz-animation: roll 30s linear infinite;
+.btn {
+	padding: 2vw;
+	font-size: 3.5vw;
+	cursor: pointer;
+	color: #d35f5f;
 }
 
-/* animate the drops*/
-@-webkit-keyframes fall {
-    to {margin-top:100vh;}
-}
-@-moz-keyframes fall {
-    to {margin-top:100vh;}
+#info {
+	z-index: 1;
+	text-align: center;
+	width: 100%;
+	position: relative;
 }
 
-/* animate skyline scroll */
-@-webkit-keyframes roll {
-    to {margin-left:100vw;}
+#backgroundSVG {
+	z-index: 0;
 }
-@-moz-keyframes roll {
-    to {margin-left:100vw;}
+
+@media screen and (max-width: 800px) {
+	h1 {
+		font-size: 5.5vh;
+		margin-top: 35vh;
+	}
+	img {
+		width: 90vw;
+		bottom: 15vh;
+		left: 5vw;
+		
+	}
+	.btn {
+		font-size: 5vh;
+	}
 }
